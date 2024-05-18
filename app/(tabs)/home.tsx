@@ -10,11 +10,11 @@ export default function Home() {
             <View
                 className='bg-white py-3 px-4 w-full rounded-full flex items-center flex-row h-fit'>
                 <EvilIcons
-                    onPress={() => router.push('/restaurant')}
+                    onPress={() => router.push('/search')}
                     name='search' size={32} color='#f8941c' />
                 <GestureHandlerRootView>
                     <TextInput
-                        onPress={() => router.push('/restaurant')}
+                        onPress={() => router.push('/search')}
                         placeholder='Search for your preferred restaurant'
                         className='text-gray-400 text-base ml-2'
                     />

@@ -1,8 +1,8 @@
 import React from 'react'
-import Register from './register'
+import Search from './search'
 
 export default function index() {
     return (
-        <Register />
+        <Search />
     )
 }
