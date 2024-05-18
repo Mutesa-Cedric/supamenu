@@ -3,7 +3,7 @@ import {
     MaterialCommunityIcons,
     Entypo,
 } from '@expo/vector-icons';
-import { Link } from 'expo-router';
+import { Link, router } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, Text, View, Image } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
@@ -42,7 +42,9 @@ export default function Login() {
                             onChangeText={(text) => setFormData({ ...formData, password: text })}
                             Icon={MaterialCommunityIcons}
                         />
-                        <Pressable className='w-full bg-primary  py-3 rounded-md flex flex-row items-center justify-center'>
+                        <Pressable
+                            onPress={() => router.push('/home')}
+                            className='w-full bg-primary  py-3 rounded-md flex flex-row items-center justify-center'>
                             <Text className='text-white text-base font-semibold'>Sign In</Text>
                         </Pressable>
                         <View className='flex items-center justify-center flex-row'>

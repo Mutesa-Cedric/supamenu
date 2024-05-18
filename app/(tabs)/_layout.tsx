@@ -27,6 +27,21 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="login"
+        options={{
+          title: 'Login',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'key' : 'key-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name='home'
+        options={{
+          title: "Home"
+        }}
+      />
     </Tabs>
   );
 }
