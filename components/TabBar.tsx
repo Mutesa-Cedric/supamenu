@@ -1,11 +1,7 @@
-import { Link, usePathname } from 'expo-router'
-import React from 'react'
-import { Text, View } from 'react-native'
-import { Feather } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { FontAwesome5 } from '@expo/vector-icons';
-import { AntDesign } from '@expo/vector-icons';
+import { AntDesign, Feather, FontAwesome5, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { Link, usePathname } from 'expo-router';
+import React from 'react';
+import { View } from 'react-native';
 
 const navLinks: {
     path: string;

@@ -1,8 +1,8 @@
 import React from 'react'
-import Search from './search'
+import Restaurant from '../restaurant'
 
 export default function index() {
     return (
-        <Search />
+        <Restaurant />
     )
 }
