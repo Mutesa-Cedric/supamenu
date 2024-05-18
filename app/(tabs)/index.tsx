@@ -1,8 +1,8 @@
 import React from 'react'
-import Restaurant from '../restaurant'
+import Feedback from './feedback'
 
 export default function index() {
     return (
-        <Restaurant />
+        <Feedback />
     )
 }
