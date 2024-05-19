@@ -1,8 +1,8 @@
 import React from 'react'
-import Feedback from './feedback'
+import PaymentSuccess from './payment-success'
 
 export default function index() {
     return (
-        <Feedback />
+        <PaymentSuccess />
     )
 }
